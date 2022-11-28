@@ -5,6 +5,9 @@ public class MainClear {
     public static void main(String[] args) {
         int sum = solve();
         System.out.println(sum);
+
+        int a = getNumberFromConsole();
+        int b = getNumberFromConsole();
     }
     public static int solve() {
         int sum = 0;
